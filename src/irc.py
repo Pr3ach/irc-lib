@@ -18,7 +18,7 @@
 #
 
 __author__ = "Preacher"
-__version__ = "1.1"
+__version__ = "1.2-dev"
 
 import socket
 import re
@@ -377,6 +377,13 @@ class Irc():
         Send a PRIVMSG message
         """
         self._send('PRIVMSG %s :%s' % (target, msg))
+        return None
+
+    def kick(self, user, reason=""):
+        """
+        Kick an IRC user on the channel
+        """
+        self._send("KICK " + self.channel + ' ' + user + " :" + reason)
         return None
 
     def _send(self, data):
