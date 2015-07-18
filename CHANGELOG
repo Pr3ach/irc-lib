@@ -4,3 +4,5 @@
 
 1.2 - Preacher - YYYY/MM/DD
 	- Added function kick(user, reason="")
+	- Fixed possible bug/crash in set_callback()
+	- Clear user list before joining again if we're kicked
