@@ -2,7 +2,7 @@
 	- Fixed bug when setting callback "all"
 	- Fixed bug in _from parameter on PRIVMSG
 
-1.2 - Preacher - 11/08/2015
+1.2 - Preacher - 2015/08/11
 	- Added function kick(user, reason="")
 	- Fixed possible bug/crash in set_callback()
 	- Clear user list before joining again if we're kicked
