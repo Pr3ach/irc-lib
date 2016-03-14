@@ -9,3 +9,6 @@
 
 1.2.1 - Preacher - 2016/01/06
 	+ Added QUIT message handler
+
+1.2.2 - MrYeah - 2016/03/14
+	+ Added NOTICE and ACTION messages
